@@ -30,7 +30,6 @@ print(list(set(a) - set(b)))
 # если элемент кратен двум, то разделить его на 4, если не кратен, то умножить на два.
 
 numbers = [7, 5, 6, 3, 9, 1]
-print(numbers)
 for num in numbers:
     if num % 2 == 0:
         print(num / 4)
